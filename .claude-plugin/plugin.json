@@ -1,0 +1,14 @@
+{
+  "name": "ai-governance-control-audit",
+  "displayName": "AI Governance Control Audit",
+  "version": "1.0.0",
+  "description": "Audit what an AI system actually implements, not what its policy says: scores nine governance controls on code evidence and returns engineering tickets.",
+  "author": {
+    "name": "AI Governance Labs",
+    "url": "https://github.com/aigovernancelabs"
+  },
+  "homepage": "https://github.com/aigovernancelabs/ai-governance-control-audit",
+  "repository": "https://github.com/aigovernancelabs/ai-governance-control-audit",
+  "license": "MIT",
+  "keywords": ["ai-governance", "security", "compliance", "eu-ai-act", "audit", "llm-security"]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "aigovernancelabs",
+  "owner": {
+    "name": "AI Governance Labs"
+  },
+  "description": "AI governance plugins from AI Governance Labs.",
+  "plugins": [
+    {
+      "name": "ai-governance-control-audit",
+      "source": "./"
+    }
+  ]
+}
