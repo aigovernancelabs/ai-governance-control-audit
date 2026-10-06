@@ -47,7 +47,20 @@ The full reports are in [`tests/results/`](tests/results/).
 
 ## Install
 
-**Claude Code:**
+**Claude Code (plugin):**
+
+```
+/plugin marketplace add aigovernancelabs/ai-governance-control-audit
+/plugin install ai-governance-control-audit@aigovernancelabs
+```
+
+**Any agent that supports skills ([skills.sh](https://skills.sh)):**
+
+```bash
+npx skills add aigovernancelabs/ai-governance-control-audit
+```
+
+**Manual:**
 
 ```bash
 git clone https://github.com/aigovernancelabs/ai-governance-control-audit.git
