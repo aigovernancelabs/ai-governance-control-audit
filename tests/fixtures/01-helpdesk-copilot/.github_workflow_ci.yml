@@ -1,0 +1,6 @@
+# CI: lint + unit tests
+jobs:
+  test:
+    steps:
+      - run: ruff check .
+      - run: pytest tests/

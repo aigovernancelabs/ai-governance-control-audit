@@ -1,0 +1,17 @@
+llm:
+  provider: openai
+  model: gpt-4o            # tracks latest gpt-4o snapshot
+  temperature: 0.3
+  vendor_data_retention: default
+vector_store:
+  index: helpdesk-shared   # one index, all tenants, filtered by tenant_id metadata
+guardrails:
+  injection_check: true
+  output_policy_check: false   # TODO enable after launch
+logging:
+  level: INFO
+  file: /var/log/copilot/app.log
+  rotate_days: 14
+exports:
+  fine_tune_export: enabled
+  fine_tune_bucket: s3://ledgerly-ml/finetune/
